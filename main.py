@@ -1,7 +1,7 @@
 import cv2  # openCV module
 
-source = "xyz.jpg"
-destination = "new_resized_xyz.png"
+source = "xyz.jpg"                    #enter your image address that you want to resize.
+destination = "new_resized_xyz.png"   #enter the name you want your resized image to be stored as.
 scale_percent = 50  # percent by which the image is reduced
 
 img = cv2.imread(source, cv2.IMREAD_UNCHANGED)
