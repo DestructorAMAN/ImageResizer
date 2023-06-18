@@ -1,7 +1,7 @@
 import cv2  # openCV module
 
-source = "Photo from Sunita Sharma.jpg"
-destination = "new_resized_image.png"
+source = "xyz.jpg"
+destination = "new_resized_xyz.png"
 scale_percent = 50  # percent by which the image is reduced
 
 img = cv2.imread(source, cv2.IMREAD_UNCHANGED)
